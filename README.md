@@ -24,10 +24,3 @@ This project aims to create a Kubernetes controller with a webhook that monitors
    - **Controller:** Avoid unnecessary scaling actions that could lead to resource wastage or application downtime.
    - **Webhook:** Provide detailed insights into eviction attempts and PDB statuses, ensuring that the controller only scales resources when truly necessary.
   
-### Milestone 1: Project Initialization and Setup
-- **Deliverable 1.1: Project Repository Initialization**
-  - Set up a Git repository for the project.
-  - Configure the development environment with necessary tools (e.g., Kubebuilder, Go, Kubernetes client libraries).
-- **Deliverable 1.2: Initial Project Structure**
-  - Initialize the Kubebuilder project.
-  - Define the basic directory structure for the controller and webhook.
